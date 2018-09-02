@@ -118,7 +118,7 @@
 
 ![Imgur](https://i.imgur.com/sdjth8Q.png)
 
-- Create group chat, search user chat in DB, add member chat:
+- Create group chat, search user chat in DB, add member chat, remove member, remove group chat:
 
 ![Imgur](https://i.imgur.com/Yv6hlxV.png)
 
@@ -126,7 +126,7 @@
 
 ![Imgur](https://i.imgur.com/MwuCZSx.png)
 
-- Chat group, notìy user Online, Offline: 
+- Chat group, notify user Online, Offline: 
 
 - Chat group, notify user Online, Offline: 
 
