@@ -128,9 +128,6 @@
 
 - Chat group, notify user Online, Offline: 
 
-- Chat group, notify user Online, Offline: 
-
-
 ![Imgur](https://i.imgur.com/NapzzTl.png)
 
 ![Imgur](https://i.imgur.com/CGKAvNW.png)
