@@ -1,0 +1,76 @@
+.messages{
+    /* display: flex; */
+    /* flex-direction: column; */
+    flex-grow: 1;
+    padding: 20px;
+    overflow-y: auto;
+    height: 100%;
+    /* flex-shrink: 0; */
+}
+
+.message{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+
+.message-user-image>img{
+    width:40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.message-body{
+    overflow: hidden;
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 12px;
+    margin-left: 10px;
+    max-width: 900px;
+}
+
+.message-author{
+    font-family: 'Nobile', sans-serif;
+    font-size: 12px;
+    color: rgb(139, 139, 139);
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.message-text{
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    color:rgb(0, 0, 0);
+    word-wrap: break-word;
+}
+
+.message-me{
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: flex-end;
+}
+
+.message-body-me{
+    overflow: hidden;
+    background: #22e99377;
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 10px;
+    max-width: 900px;
+}
+
+.message-text-me>div{
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    color:black;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+
+.created-message >div{
+    margin-top: 4px;
+    font-size: 13px;
+    color: rgb(128, 128, 128);
+}

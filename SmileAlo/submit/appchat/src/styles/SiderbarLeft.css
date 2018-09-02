@@ -1,0 +1,106 @@
+.siderbar-left{
+    /* background-image: linear-gradient( #272727 0%, #1f1e1e 100%); */
+    overflow: hidden;
+    background: white;
+    width: 320px;
+    border-right: 1px solid rgb(200, 200, 200);
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+.channels{
+    overflow-y: auto;
+    height: 100%;
+}
+
+.channel{
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    height: 80px;
+    /* border-bottom: 1px solid rgb(184, 184, 184); */
+}
+
+.channel:hover{
+    background: #b7e7d888;
+}
+
+.channel:active{
+    background: #1ecc8177;
+}
+
+.channel-active{
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    padding: 10px;
+    height: 80px;
+    background: #1ecc8177;
+    box-shadow: 0px 2px 2px rgb(151, 150, 150);
+}
+
+.user-image{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    margin-top: 3px;
+}
+
+.user-image>img{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.channel-info{
+    overflow: hidden ;
+    flex-grow: 1;
+    white-space: nowrap;
+    margin: 3px 5px 0px 10px;
+}
+
+.channel-info>div{
+    font-family: 'IBM+Plex+Sans+Condensed', sans-serif;
+    font-size: 18px;
+    text-align: left;
+    color: black;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.channel-info>p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    text-align: left ;
+    color: rgb(98, 98, 98) ;
+    overflow: hidden ;
+    text-overflow: ellipsis ;
+    white-space: nowrap ;
+    margin: 7px 0 0 0;
+
+}
+
+.number-messagewait>p{
+    background: rgb(255, 0, 0);
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    padding-top: 6px;
+    border-radius: 50%;
+    color: white;
+    font-size: 17px;
+    font-family: 'Exo', sans-serif;
+    justify-content: flex-end;
+}
+
+.title-member{
+    font-family: 'IBM+Plex+Sans+Condensed', sans-serif;
+    font-size: 23px;
+    color: black;
+    text-align: center;
+    border-bottom: 0.5px solid rgb(200, 200, 200);
+}

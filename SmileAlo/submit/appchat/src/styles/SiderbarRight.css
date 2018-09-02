@@ -1,0 +1,104 @@
+.siderbar-right{
+    background: white;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    border-left: 0.5px solid rgb(200, 200, 200);
+}
+
+.members{
+    overflow-y: auto;
+    height: 100%;
+}
+
+.member{
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    height: 80px;
+}
+
+.member:hover{
+    background: #b7e7d888;
+}
+
+.user-image{
+    position: relative;
+}
+
+.user-offline{
+    width: 18px;
+    height: 18px;
+    display: block;
+    position: absolute;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    background: rgb(121, 121, 121);
+    border-radius: 50%;
+    right: -3px;
+    bottom: 3px;
+}
+
+.user-online{
+    width: 18px;
+    height: 18px;
+    display: block;
+    position: absolute;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    background: rgb(25, 255, 17);
+    border-radius: 50%;
+    right: -3px;
+    bottom: 3px;
+}
+
+.user-image>img{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.member-info{
+    overflow: hidden ;
+    flex-grow: 1;
+    white-space: nowrap;
+    margin: 3px 5px 0px 10px;
+}
+.member-info>div{
+    font-family: 'IBM+Plex+Sans+Condensed', sans-serif;
+    font-size: 18px;
+    text-align: left;
+    color: black;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.member-info>p{
+    font-size: 16px;
+    font-family: 'IBM+Plex+Sans+Condensed', sans-serif;
+    text-align: left;
+    color: black;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: rgb(98, 98, 98);
+    margin: 7px 0 0 0;
+}
+
+.title-member{
+    font-family: 'IBM+Plex+Sans+Condensed', sans-serif;
+    font-size: 23px;
+    color: black;
+    text-align: center;
+    border-bottom: 0.5px solid rgb(200, 200, 200);
+    padding: 6px;
+    height: 45px;
+}
+
+

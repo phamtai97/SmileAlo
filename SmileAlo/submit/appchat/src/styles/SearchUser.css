@@ -1,0 +1,55 @@
+.search-user{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255,255,255,0.50) 47%, rgba(0,0,0,0.50) 100%);
+    background-blend-mode: screen;
+    /* background: #109962; */
+}
+
+.users{ 
+    overflow-y: auto;
+    height: 100%;
+}
+
+.user{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 80px;
+}
+
+.user:hover{
+    background: #b7e7d888;
+}
+
+.user:active{
+    background: #1ecc81ad;
+}
+
+.user-img{
+    margin-left: 10px;
+}
+
+.user-img>img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%; 
+    object-fit: cover; 
+}
+
+.user-info>div{
+    font-family: 'IBM+Plex+Sans+Condensed', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    color: black;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-left: 10px;
+}
+
+.title-member{
+    background: white;
+}

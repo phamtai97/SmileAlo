@@ -1,0 +1,45 @@
+.app-message{
+    display: flex;
+    flex-direction: row;
+}
+
+
+/*--------------------------------------Menu-bar-------------------------------------------*/
+
+/*--------------------------------------App-WRAPPER-------------------------------------------*/
+.app-wrapper{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background: white;
+    flex-grow: 1;
+}
+/*-----------------------------------HEADER-MESSAGE----------------------------------*/
+.header-message{
+    display: flex;
+    flex-direction: row;
+    height: 90px;
+    overflow: hidden;
+}
+/*----------------------header-left-------------*/
+
+/*----------------------header-right------------------*/
+
+/*------------------------------------MAIN-MESSAGE------------------------------*/
+.main-message{
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+    flex-grow: 1;  
+    background-color: #DCD9D4; 
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%), radial-gradient(at 50% 0%, rgba(255,255,255,0.10) 0%, rgba(0,0,0,0.50) 50%); 
+    background-blend-mode: soft-light,screen;
+}
+
+/*----------------------MAIN content-------------------*/
+.main-content{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}

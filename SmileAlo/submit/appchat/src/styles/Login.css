@@ -1,0 +1,169 @@
+.containerLoginPage {
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgba(255, 255, 255, 0.315);
+    margin-top: 250px;
+    width: 550px;
+    height: 350px;
+    border-radius: 2%;
+}
+
+.containerRegisterPage {
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgba(255, 255, 255, 0.315);
+    margin-top: 150px;
+    width: 550px;
+    height: 680px;
+    border-radius: 2%;
+}
+
+.main {
+    padding-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 400px;
+}
+
+.titleLogin {
+    font-family: 'Nobile', sans-serif !important;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    font-weight: 800;
+}
+
+.titleRegister {
+    font-family: 'Nobile', sans-serif !important;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    font-weight: 800;    
+}
+
+.text {
+    font-family: 'Nobile', sans-serif !important;
+    font-size: 20px;
+    color: white;
+}
+
+Input[type=text],
+Input[type=password] {
+    width: 100%;
+    padding: 3px 20px 0px 0px;
+    margin: 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: 'Nobile', sans-serif !important;
+    border-radius: 7px;
+    border-width: 1px;
+    height: 50px;
+    line-height: 0;
+    color: black;
+}
+
+Input[type=file],
+Input[type=password] {
+    width: 100%;
+    padding: 3px 20px 0px 0px;
+    margin: 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: 'Nobile', sans-serif !important;
+    border-radius: 7px;
+    border-width: 1px;
+    height: 50px;
+    line-height: 0;
+    color: black;
+}
+
+::placeholder {
+    color: rgb(192, 189, 189);
+    opacity: 1; /* Firefox */
+}
+
+button {
+    background-color: #0ac373 !important;
+    color: white !important;
+    font-size: 20px !important;
+    font-family: 'Nobile', sans-serif !important;
+    text-align: center !important;
+    padding: 0;
+    cursor: pointer;
+    width: 40%;
+    height: 50px;
+    margin-left: auto;
+    border-radius: 7px;
+    border: none;
+}
+
+button:hover {
+    background-color: #0aca77 !important;
+    text-shadow: 0px 1px 1px rgb(153, 153, 153) !important;
+    box-shadow: 0px 1px 1px rgb(153, 153, 153) !important;
+}
+
+button:active {
+    background-color:  #04ce76
+}
+
+#buttonRegister {
+    margin-left: 20%;
+}
+
+#buttonCancel {
+    margin-left: 20%;
+}
+
+.aminMoveDown-appear {
+    position: relative;
+    animation: movedown;
+    animation-duration: 0.7s;
+}
+
+@keyframes movedown {
+    from {
+        top: -1000px;
+    }
+    to {
+        top: 100px;
+    }
+}
+
+.aminAppear-appear {
+    opacity: 0.01;
+}
+
+.aminAppear-appear.amin-appear-active {
+    opacity: 1;
+    transition: opacity 100ms ease-in;
+}
+
+.noti-message{
+    color: rgb(255, 0, 0);
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Nobile', sans-serif !important;
+}
+
+.avatar > img {
+    width:100px;
+    height: 100px;
+    border-radius: 50%;
+    vertical-align:middle;
+    object-fit: cover;
+}
+
+.avatar{
+    margin: 0px 0px 15px 0px;
+    line-height:100px;
+    text-align:center;
+}

@@ -1,0 +1,42 @@
+/*--------------------------------------Menu-bar-------------------------------------------*/
+.menu-bar{
+    display: flex;
+    overflow: hidden;
+    width: 65px;
+    background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
+    flex-shrink: 0;
+}
+
+.menus{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.icon-app>img{
+    width:55px;
+    height: 55px;
+    border-radius: 50%;
+    margin: 20px 6px;
+}
+
+.action-creategroup>img{
+    width:67px;
+    height: 67px;
+    border-radius: 50%;
+    margin: 35px 0 0 0;
+}
+
+.action-creategroup>img:hover{
+    background: rgba(241, 241, 241, 0.274);
+}
+.action-logout>img{
+    width:55px;
+    height: 55px;
+    border-radius: 50%;
+    margin: 720px 6px 0 6px;
+}
+
+.action-logout>img:hover{
+    background: rgba(241, 241, 241, 0.274);
+}

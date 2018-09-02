@@ -1,0 +1,12 @@
+{"compilerOptions": {
+    "lib": ["es6", "dom", "es2015"],
+    "module": "commonjs",
+    "target": "es5",
+    "moduleResolution": "node",
+    "declaration": false,
+    "outDir": "lib",
+    "experimentalDecorators": true,
+    "allowJs": true
+  },
+  "include": ["index.ts", "src" ]
+}
