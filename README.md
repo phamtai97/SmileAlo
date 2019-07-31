@@ -1,6 +1,6 @@
 # Web chat Smile Alo (Smlo)
 <div align="center">
-    <img src="https://i.imgur.com/NapzzTl.png" width="500">
+    <img src="https://i.imgur.com/NapzzTl.png" width="700">
 </div>
 <br/>
 
